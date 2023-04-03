@@ -1,0 +1,13 @@
+.x-nav-list.x-nav-list--right {
+	left: 0;
+	right: unset;
+}
+.x-nav-list.x-nav-list--left {
+	right: 0;
+	left: unset;
+}
+
+.x-menu.x-menu--active.x-menu--open .x-menu-button.x-link {
+	left: -12px;
+	right: unset;
+}

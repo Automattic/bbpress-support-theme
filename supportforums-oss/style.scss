@@ -1,0 +1,71 @@
+/**
+ * Theme Name: Support Forums Demo Child Theme
+ * Theme URI: https://supportforumsdemo.wordpress.com/
+ * Author: Automattic
+ * Author URI: http://automattic.com
+ * Template: supportforums
+ * Version: 1.0
+ * Text Domain: support-forums-oss
+ */
+
+.spf-header-nav {
+	display: flex;
+
+	a {
+		padding: 0 18px 0 10px;
+		display: block;
+		margin-top: 9px;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 16px;
+		white-space: nowrap;
+		cursor: pointer;
+	}
+}
+
+.spf-admin-tools__widget {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	margin-bottom: 40px;
+}
+
+.spf-admin-tools__widget-title {
+	font-family: -apple-system, "SF Pro Text", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: -0.15px;
+	color: #101517;
+}
+
+footer {
+	text-align: center;
+	margin-top: 72px;
+	margin-bottom: 20px;
+}
+
+.spf-footer-nav {
+	padding: 0;
+	margin: 20px 0;
+
+	.menu-item {
+		display: inline-block;
+		font-size: 14px;
+		margin-bottom: 20px;
+		margin-right: 16px;
+
+		a {
+			color: #2c3338;
+		}
+
+		a:visited {
+			color: #2c3338;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #8c8f94;
+		}
+	}
+}

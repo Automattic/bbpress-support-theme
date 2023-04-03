@@ -1,0 +1,31 @@
+/* Always hide the textareas */
+.gutenberg-support #bbcode_buttons,
+.gutenberg-support #bbp_reply_content,
+.gutenberg-support #bbp_topic_content {
+	display: none;
+}
+
+/* Preventing GB placeholder overlaps with the inserter */
+.block-editor-default-block-appender__content {
+	padding-right: 30px !important;
+}
+
+/* This may need changing the isolated block editor - https://github.com/Automattic/isolated-block-editor/issues/193 */
+.gutenberg-support .iso-editor .components-popover__content button:not(.is-active) {
+	font-family: inherit;
+	font-weight: 500;
+}
+
+@media only screen and (max-width: 480px) {
+	/* Preventing GB from causing page overflow on the mobile view */
+	.gutenberg-support .components-toolbar-group {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+/* Fix the block quote */
+.gutenberg-support .iso-editor :where(.wp-block.wp-block-quote):not(ul>li>ul,li) p {
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+}

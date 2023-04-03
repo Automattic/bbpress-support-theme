@@ -1,0 +1,1 @@
+<?php do_action( 'spf_include_additional_sidebar_template' ); ?>
